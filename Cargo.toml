@@ -1,0 +1,11 @@
+[package]
+name = "playback"
+version = "0.1.0"
+authors = ["liubin <lb15389415660@163.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = { version = "0.3", default-features = false }
+hex = { version = "0.4.3" }
